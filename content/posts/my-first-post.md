@@ -179,3 +179,7 @@ The potential benefits of the ASIDE architecture include:
 - **Increased Control:** Developers might have finer-grained control over how the model interprets and responds to different types of input.
 
 While the concept of ASIDE is promising, it is important to note that it is an area of ongoing research and development. Implementing such an architecture on complex models like Gemma involves significant technical challenges and requires careful evaluation to ensure its effectiveness and avoid unintended consequences.
+
+> Primary quote
+>
+> Nested quote
