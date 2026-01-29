@@ -44,6 +44,15 @@
   margin-top: var(--spacing-md);
 }
 
+.about-page-social div {
+  gap: var(--spacing-lg) !important;
+}
+
+.about-page-social svg {
+    width: 2rem !important;
+    height: 2rem !important;
+}
+
 .about-content-full {
   font-size: 1.125rem;
   line-height: 1.8;

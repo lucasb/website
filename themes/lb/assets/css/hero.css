@@ -84,9 +84,17 @@
   animation: float 3s ease-in-out infinite;
 }
 
+.hero-social {
+  padding-top: 1.6rem;
+}
+
+.hero-social div {
+  gap: var(--spacing-lg) !important;
+}
+
 .hero-social svg {
-    width: var(--icon-lg)!important;
-    height: var(--icon-lg)!important;
+    width: 2rem !important;
+    height: 2rem !important;
 }
 
 @keyframes float {
