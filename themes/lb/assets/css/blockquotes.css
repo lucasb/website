@@ -1,7 +1,7 @@
 /* Blockquotes and Alerts/Admonitions Styling */
 
 /* Regular Blockquotes */
-.post-content-main blockquote.blockquote-regular {
+.post-content-main blockquote {
   margin: var(--spacing-md) 0;
   padding: var(--spacing-md) var(--spacing-lg);
   border-left: 4px solid var(--accent-primary);
@@ -13,11 +13,11 @@
   position: relative;
 }
 
-.post-content-main blockquote.blockquote-regular p {
+.post-content-main blockquote p {
   margin-bottom: 0;
 }
 
-.post-content-main blockquote.blockquote-regular p:last-child {
+.post-content-main blockquote p:last-child {
   margin-bottom: 0;
 }
 

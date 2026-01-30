@@ -15,7 +15,7 @@ html {
 
 :root {
   /* Nebula Glass Color Palette */
-  --bg-deep: #020617; /* Deep Midnight Blue */
+  --bg-deep: #020607/*#020617*/; /* Deep Midnight Blue */
   --accent-primary: #b063e0; /* Primary Purple */
   --accent-mid-purple: #c485f6; /* Mid Purple */
   --accent-light-purple: #dbabff; /* Light Purple */

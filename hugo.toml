@@ -86,7 +86,7 @@ theme = 'lb'
     codeFences = true
     guessSyntax = true
     noClasses = false
-    style = "catppuccin-macchiato"  # Default style
+    style = "github" #"catppuccin-macchiato"  # Default style
 
 [outputs]
   home = ["HTML", "JSON"]
