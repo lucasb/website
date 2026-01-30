@@ -57,7 +57,7 @@ theme = 'lb'
     email = "contact@lucasboscaini.com"
 
 [[menus.main]]
-  name = 'Posts'
+  name = 'Stores'
   pageRef = '/posts'
   weight = 10
 
@@ -89,7 +89,6 @@ theme = 'lb'
     codeFences = true
     guessSyntax = true
     noClasses = false
-    style = "github" #"catppuccin-macchiato"  # Default style
 
 [outputs]
   home = ["HTML", "JSON"]

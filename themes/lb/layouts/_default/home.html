@@ -56,11 +56,21 @@
   <div class="home-container">
     <!-- Posts List -->
     <section class="posts-section">
-      <h2 class="posts-title">Recents</h2>
+      <h2 class="posts-title">Stores</h2>
+
+      <div class="posts-home-list">
+        {{ range where site.RegularPages "Type" "posts" | first 8 }}
+          {{ partial "post-home-card.html" (dict "page" . "limit" 3) }}
+        {{ end }}
+      </div>
+    </section>
+    <!-- Talks List -->
+    <section class="posts-section">
+      <h2 class="posts-title">Talks</h2>
 
       <div class="posts-list">
-        {{ range where site.RegularPages "Type" "posts" | first 10 }}
-          {{ partial "post-card.html" (dict "page" . "limit" 3) }}
+        {{ range where site.RegularPages "Type" "talks" | first 5 }}
+          {{ partial "post-home-card.html" (dict "page" . "limit" 3) }}
         {{ end }}
       </div>
     </section>
