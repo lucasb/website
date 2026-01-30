@@ -17,8 +17,11 @@ theme = 'lb'
   custom404Message = "Sorry, the page you are looking for could not be found."
 
   [params.codeHighlight]
-    darkTheme = "catppuccin-macchiato"   # Theme for dark mode
-    lightTheme = "catppuccin-frappe"     # Theme for light mode
+    codeFences = true
+    guessSyntax = true
+    noClasses = false
+    darkTheme = "catppuccin-frappe"#"catppuccin-macchiato"   # Theme for dark mode
+    lightTheme = "catppuccin-latte" #"catppuccin-frappe"     # Theme for light mode
 
   # Avatar Configuration
   [params.avatar]
