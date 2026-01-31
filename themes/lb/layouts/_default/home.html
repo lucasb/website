@@ -68,8 +68,8 @@
     <section class="posts-section">
       <h2 class="posts-title">Talks</h2>
 
-      <div class="posts-list">
-        {{ range where site.RegularPages "Type" "talks" | first 5 }}
+      <div class="posts-home-list">
+        {{ range where site.RegularPages "Type" "talks" | first 4 }}
           {{ partial "post-home-card.html" (dict "page" . "limit" 3) }}
         {{ end }}
       </div>

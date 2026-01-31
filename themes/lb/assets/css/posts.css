@@ -5,24 +5,16 @@
   flex-direction: column;
   gap: var(--spacing-xl);
   padding: var(--spacing-2xl) 0;
-  /*max-width: 1200px;*/
-  /*margin: 0 auto;*/
 }
 
 .posts-section {
-  /*margin-top: var(--spacing-2xl);*/
   flex: 1;
 }
-
-/*.posts-talk-section {
-  /*flex-shrink: 0;*/
-  max-width: 280px;
-}*/
 
 .posts-title {
   font-size: 1.5rem;
   font-weight: 700;
-  margin-bottom: var(--spacing-lg);
+  padding: var(--spacing-lg);
   color: var(--text-primary);
 }
 
@@ -53,8 +45,15 @@
 
 .posts-home-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: var(--spacing-xl) var(--spacing-md);
+  grid-template-columns: 1fr;
+  /*grid-template-columns: repeat(auto-fit, minmax(clamp(25%, 240px, 100%), 1fr));*/
+}
+
+@media (min-width: 768px) {
+  .posts-home-list {
+    grid-template-columns: repeat(4, minmax(240px, 1fr));
+  }
 }
 
 .post-home-card {
@@ -69,7 +68,7 @@
   border-radius: 0.5rem;
   border-top: 1px solid var(--border-color);
   transition: all var(--transition-base);
-  max-width:100%;
+  max-width: 100%;
 }
 
 .post-home-card:hover {

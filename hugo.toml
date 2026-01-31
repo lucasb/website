@@ -91,7 +91,7 @@ theme = 'lb'
     noClasses = false
 
 [outputs]
-  home = ["HTML", "JSON"]
+  home = ["HTML", "RSS", "JSON"]
 
 # Sitemap configuration for SEO
 [sitemap]
