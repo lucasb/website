@@ -15,10 +15,10 @@ html {
 
 :root {
   /* Nebula Glass Color Palette */
-  --bg-deep: #020607/*#020617*/; /* Deep Midnight Blue */
-  --accent-primary: #b063e0; /* Primary Purple */
+  --bg-deep: #020217/*#020617*/; /* Deep Midnight Blue */
+  --accent-primary: #c6a0f6; /*#ef5ba1;/* #b063e0; /* Primary Purple */
   --accent-mid-purple: #c485f6; /* Mid Purple */
-  --accent-light-purple: #dbabff; /* Light Purple */
+  --accent-light-purple: #c6a0f6;/*#ef5ba1; /*#dbabff; /* Light Purple */
   --accent-secondary: #00ffff; /* Cyber Cyan */
   --glass-surface: rgba(255, 255, 255, 0.05);
   --glass-border: rgba(255, 255, 255, 0.1);

@@ -66,12 +66,12 @@
 .hero-logo {
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid var(--accent-primary);
+  /*border: 2px solid var(--accent-primary);*/
   padding: var(--spacing-lg);
   max-width: 72%;
   height: auto;
   filter: drop-shadow(0 0 10px var(--accent-primary-rgba-03));
-  animation: float 3s ease-in-out infinite;
+  /* animation: float 3s ease-in-out infinite;*/
 }
 
 .hero-logo-placeholder {

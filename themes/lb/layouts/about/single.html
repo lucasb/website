@@ -1,21 +1,16 @@
 {{ define "main" }}
   <article class="about-page">
-    <header class="about-header">
-      <div class="about-page-info">
-        <h1 class="about-page-name">
-          <span class="list-title-line2">{{ .Title }}</span>
-        </h1>
-
+      <header class="about-header">
         {{ $avatarUrl := site.Params.avatar.about.url | default site.Params.avatar.url }}
         {{ $avatarAsset := site.Params.avatar.about.assetPath | default site.Params.avatar.assetPath }}
         {{ $enableResize := site.Params.avatar.about.enableResize | default site.Params.avatar.enableResize | default false }}
 
         {{ if $avatarUrl }}
-          <img src="{{ $avatarUrl }}" alt="{{ site.Title }}" class="about-page-avatar">
+          <img src="{{ $avatarUrl }}" alt="{{ site.Title }} 2" class="about-page-avatar">
         {{ else if $avatarAsset }}
           {{ with resources.Get $avatarAsset }}
             {{ if $enableResize }}
-              {{ with .Resize "120x" }}
+              {{ with .Resize "450x" }}
                 <img src="{{ .RelPermalink }}" alt="{{ site.Title }}" class="about-page-avatar">
               {{ end }}
             {{ else }}
@@ -23,20 +18,15 @@
             {{ end }}
           {{ end }}
         {{ end }}
-        {{ if site.Params.description }}
-          <p class="about-page-description">{{ site.Params.description }}</p>
-        {{ end }}
-
         {{ if site.Params.social }}
           <div class="about-page-social">
             {{ partial "social-links.html" . }}
           </div>
         {{ end }}
-      </div>
-    </header>
-
+      </header>
     <div class="about-content-full">
       {{ .Content }}
+      
     </div>
   </article>
 {{ end }}

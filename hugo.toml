@@ -47,7 +47,7 @@ theme = 'lb'
     # About page specific avatar (optional - falls back to general avatar if not set)
     [params.avatar.about]
       # url = "https://example.com/about-avatar.jpg"
-      assetPath = "images/avatar.png"
+      assetPath = "images/about-pic.jpg"
       enableResize = true  # Override general setting for about page
 
   [params.social]
