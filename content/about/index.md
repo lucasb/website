@@ -1,44 +1,48 @@
 ---
 title: About
-type: "about"
+type: about
 ---
+## Who am I ?
 
+**Lucas is a technologist and has been leading the research, discovery, and creation of new technologies, with experience in big techs and startups.**
 
-## Who am I?
+I am a builder and strategist focused on the intersection of technical innovation and practical execution. Throughout my career, I have navigated the high-scale environments of Big Tech and the high-velocity world of startups. This dual perspective has shaped my belief that great technology isn't just about elegant code—it’s about solving the right problems at the right time.
 
-Bio: "Lucas is a technologist and has been leading the research, discovery, and creation of new technologies, with experience in big techs and startups."
+My primary interest lies in the "discovery" phase of technology: identifying emerging patterns and turning them into *scalable* solutions. I thrive on the challenge of taking a raw concept and *architecturalizing* it into a reality that provides genuine value. Having led research and development across various sectors, I’ve learned that the most successful systems are those that balance cutting-edge research with a pragmatic understanding of user needs.
 
-I am Martin Fowler: an author, speaker… essentially a loud-mouthed pundit on the topic of software development, primarily for Enterprise Applications. I work for Thoughtworks, a software delivery company, where I have the exceedingly inappropriate title of “Chief Scientist”. I have written half-a-dozen books on software development, including Refactoring, and Patterns of Enterprise Application Architecture. I write for and edit the website martinfowler.com.
+I don’t just build for the sake of building; I aim to understand the underlying mechanics of how technology impacts business and society. Whether I'm leading a research team or implementing a new technology, my goal is to bridge the gap between "what is possible" and "what is useful."
 
-My main interest is to understand how to design software systems, to maximize how much value development teams can deliver. In doing this I've looked to understand the patterns of good software architecture, and also the processes that support software design. I've become a big fan of agile approaches and the resulting focus on evolutionary software architecture. I don't come up with original ideas, but do a pretty good job of recognizing and packaging the ideas of others, or as Brian Foote describes me: “an intellectual jackal with good taste in carrion”.
+## What is this Site ?
 
+I started this site as a digital laboratory—a central repository for my thoughts on technology, leadership, and the shifting landscape of our industry. In an era of fleeting social media posts, I believe in the value of long-form thought and permanent URLs.
 
-## What is this Site?
+My current mission for this platform is centered on **exploring artificial cognition and its implications on software engineering and safety.**  This site is where I document my research into how these artificial cognitive architectures work and, more importantly, how we can build them to be robust, predictable, and safe. As well how it challenges the mental models of software development.
 
-I started martinfowler.com as a place to keep my own writings, initially just articles I'd written for other purposes. In the early 2000s, blogs got popular and that encouraged me to start the bliki in 2003 to engage with some more informal writing.
+As I’ve progressed through my career, I’ve found that the best way to solidify my understanding of a complex topic is to write about it. This site serves as:
 
-As the site got more popular, I felt I could use it to help other people get more visibility for their writing, so I've steadily increased publications from others here. I vet each article before accepting it - and often do a considerable amount of developmental editing too - so there isn't a high rate of publication. I do believe, however, that the quality of the articles matters much more than the quantity.
+* **A Research Log:** Investigating the intersection of artificial cognition, user safety, and software engineering.
 
-The topics of the articles I publish cover a broad range of software development, from writers who share my broad philosophy favoring agile approaches that appreciate the importance of technical skill in making that style work effectively. Many are, or have been, colleagues of mine at Thoughtworks, although that isn't mandatory. I generally only consider articles from people I know, although occasionally from those I don't but are vouched for by those I do.
+* **Safety & Engineering Essays:** Deep dives into building reliable systems in an age of non-deterministic model.
+
+I value quality over frequency. I only publish when I feel I have a unique perspective or a refined piece of research to offer. My goal is to provide a signal in the noise of the modern tech landscape.
 
 ### To learn about new posts
 
-I post new material regularly to this site, and have a number of feeds that I use to let people know when this happens.
+I share my latest research and articles through a few specific channels:
 
-The best source is the site's RSS (Atom) Feed which you can subscribe to with any RSS reader. Although RSS is less well-known than when it was the heart of the blogging world, I still find that monitoring RSS feeds is one of the best ways to find out about new material on sites I like to read. You can also see all of my RSS posts on the recent changes page.
-
-I also post about new material on several social media channels: Fediverse (Mastodon), Bluesky, LinkedIn, and X (Twitter) . Twitter used to be my primary place to post these updates, but it's declined in value considerably over the couple of years, so I'd recommend using one of the other channels.
+* **RSS Feed:** For the traditionalists who prefer a clean, chronological feed of updates without the interference of algorithms.
+* **LinkedIn:** Where I share more professional insights and engage with the broader tech community.
+* **Substack:** My Personal Newsletter — A curated digest of what I’m currently reading, building, and thinking about.
+* **Bluesky:** Snippets of the last updates from this website and other platforms.  
 
 ## Writing
 
-For the last decade or more, most of my writing has been published on martinfowler.com. I like the control I have to publish what I like, to control its format, and to evolve it as needed.
+Most of my recent intellectual output is hosted directly here. I believe in the "indie web" philosophy— owning my content and its presentation. My writing spans from deep technical dives into system architecture to high-level essays on the sociology implication of artificial cognitive and software technology.
 
-I have written several books, all of which published by Addison-Wesley, an imprint of Pearson. I am a series editor of my signature series with Addison-Wesley, which has given me chance to lend my support to several excellent books.
-
-I spent five years in the early noughties as the editor of the design column for IEEE Software magazine. In the late 90s I wrote a column for Distributed Computing magazine. I rarely write for magazines now, preferring to concentrate my non-book writing on my website, which presumably you’ve found by now.
+In addition to this site, I have contributed to various industry publications and internal whitepapers at the companies I’ve served. My focus is always on clarity: taking the complex "new" and making it accessible and actionable.
 
 ## Speaking
 
-I was a regular speaker at many international conferences on software development. I’ve served on program committees for OOPSLA, Software Development, UML World, XP 2001, and TOOLS. I gave closing keynotes at XP2000-2003, served as conference chair for XP2005 and for Agile Universe in 2001. I retired from speaking in 2021 as it was never something I really enjoyed. Many of my conference talks are available on video.
+I frequently share my findings at industry conferences and internal summits. My talks usually center on the process of technological discovery and implications on software engineering, security and safety. I enjoy the dialogue that comes from presenting a new idea to a room full of peers and having it challenged and refined.
 
-
+I am also deeply committed to mentorship. Beyond the code and the research, I believe the most important thing we build as technologists is the next generation of thoughtful leaders.
