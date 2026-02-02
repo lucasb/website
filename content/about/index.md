@@ -30,10 +30,10 @@ I value quality over frequency. I only publish when I feel I have a unique persp
 
 I share my latest research and articles through a few specific channels:
 
-* **RSS Feed:** For the traditionalists who prefer a clean, chronological feed of updates without the interference of algorithms.
-* **LinkedIn:** Where I share more professional insights and engage with the broader tech community.
-* **Substack:** My Personal Newsletter — A curated digest of what I’m currently reading, building, and thinking about.
-* **Bluesky:** Snippets of the last updates from this website and other platforms.  
+	* **RSS Feed:** For the traditionalists who prefer a clean, chronological feed of updates without the interference of algorithms.
+	* **LinkedIn:** Where I share more professional insights and engage with the broader tech community.
+	* **Substack:** My Personal Newsletter — A curated digest of what I’m currently reading, building, and thinking about.
+	* **Bluesky:** Snippets of the last updates from this website and other platforms.  
 
 ## Writing
 
