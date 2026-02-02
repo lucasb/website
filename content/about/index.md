@@ -21,7 +21,6 @@ My current mission for this platform is centered on **exploring artificial cogni
 As I’ve progressed through my career, I’ve found that the best way to solidify my understanding of a complex topic is to write about it. This site serves as:
 
 * **A Research Log:** Investigating the intersection of artificial cognition, user safety, and software engineering.
-
 * **Safety & Engineering Essays:** Deep dives into building reliable systems in an age of non-deterministic model.
 
 I value quality over frequency. I only publish when I feel I have a unique perspective or a refined piece of research to offer. My goal is to provide a signal in the noise of the modern tech landscape.
@@ -30,10 +29,10 @@ I value quality over frequency. I only publish when I feel I have a unique persp
 
 I share my latest research and articles through a few specific channels:
 
-	* **RSS Feed:** For the traditionalists who prefer a clean, chronological feed of updates without the interference of algorithms.
-	* **LinkedIn:** Where I share more professional insights and engage with the broader tech community.
-	* **Substack:** My Personal Newsletter — A curated digest of what I’m currently reading, building, and thinking about.
-	* **Bluesky:** Snippets of the last updates from this website and other platforms.  
+* **RSS Feed:** For the traditionalists who prefer a clean, chronological feed of updates without the interference of algorithms.
+* **LinkedIn:** Where I share more professional insights and engage with the broader tech community.
+* **Substack:** My Personal Newsletter — A curated digest of what I’m currently reading, building, and thinking about.
+* **Bluesky:** Snippets of the last updates from this website and other platforms.  
 
 ## Writing
 
