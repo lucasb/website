@@ -1,6 +1,9 @@
 ---
 title: About
 type: about
+date: 2026-02-02
+draft: false
+description: "About site"
 ---
 ## Who am I ?
 
