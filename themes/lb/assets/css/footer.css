@@ -46,3 +46,7 @@
   width: var(--icon-md);
   height: var(--icon-md);
 }
+
+.social-link-substack {
+  margin-top: 5px;
+}

@@ -75,3 +75,14 @@
 .about-content-full a:hover {
   color: var(--accent-hover);
 }
+
+.about-content-full ul, .about-content-full ol {
+  margin-bottom: var(--spacing-md);
+  padding-left: 1.5em;
+  margin-left: 0;
+}
+
+.about-content-full li {
+  margin-bottom: .5em;
+  line-height: 1.8;
+}

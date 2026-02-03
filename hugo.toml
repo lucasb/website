@@ -51,6 +51,8 @@ theme = 'lb'
       enableResize = true  # Override general setting for about page
 
   [params.social]
+    rss = '/index.xml'
+    substack = 'https://substack.com'
     bluesky = "https://bsky.app/profile/lucasb.me"
     github = "https://github.com/lucasb"
     linkedin = "https://www.linkedin.com/in/lucasboscaini"
