@@ -5,7 +5,7 @@ tags:
   - mytag
 draft: true
 description: A brief summary of the post
-image: "image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794'"
+image: https://images.unsplash.com/photo-1512820790803-83ca734da794
 ---
 
 
