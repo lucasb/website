@@ -2,7 +2,7 @@
 title: Ransomware prevention and Good practices
 date: 2025-04-02
 tags:
-  - talks
+  - Talks
   - Cybersecurity
   - Keynote
 draft: false

@@ -2,7 +2,7 @@
 title: AI on the Rise - Security Challenges in the Era of Artificial Intelligence
 date: 2024-09-17
 tags:
-  - talks
+  - Talks
   - AI
   - Cybersecurity
   - Keynote
