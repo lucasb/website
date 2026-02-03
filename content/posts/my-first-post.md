@@ -4,7 +4,8 @@ date: 2026-01-26
 tags:
   - mytag
 draft: true
-description: "A brief summary of the post"
+description: A brief summary of the post
+image: "image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794'"
 ---
 
 
