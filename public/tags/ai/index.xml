@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Talks on Lucas Boscaini.com</title>
-    <link>http://localhost:1313/talks/</link>
-    <description>Recent content in Talks on Lucas Boscaini.com</description>
+    <title>AI on Lucas Boscaini.com</title>
+    <link>http://localhost:1313/tags/ai/</link>
+    <description>Recent content in AI on Lucas Boscaini.com</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/talks/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Ransomware prevention and Good practices</title>
-      <link>http://localhost:1313/talks/ransomware-prevention-and-good-practices/</link>
-      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/talks/ransomware-prevention-and-good-practices/</guid>
-      <description>Talk in PT-BR - Transmited via Youtube: https://www.youtube.com/watch?v=3Tr3fM6U_1k</description>
-    </item>
+    <lastBuildDate>Tue, 17 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI on the Rise - Security Challenges in the Era of Artificial Intelligence</title>
       <link>http://localhost:1313/talks/ai-on-the-rise---security-challenges-in-the-era-of-artificial-intelligence/</link>

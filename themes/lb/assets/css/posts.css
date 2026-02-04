@@ -71,6 +71,10 @@
   max-width: 100%;
 }
 
+[data-theme="light"] .post-home-card {
+  border: 1px solid var(--border-color);
+}
+
 .post-home-card:hover {
   box-shadow: var(--shadow-md);
   border-color: var(--accent-primary);

@@ -10,7 +10,7 @@
       </svg>
       {{ .Date.Format "January 2, 2006" }}
     </time>
-
+    {{ if ne .Section "talks" }}
     <span class="meta-separator">•</span>
 
     {{ if .WordCount }}
@@ -39,8 +39,8 @@
         {{ .ReadingTime }} min
       </span>
     {{ end }}
+  {{ end }}
   </div>
-
   {{ if .Params.tags }}
     <div class="post-tags">
       {{ range .Params.tags }}

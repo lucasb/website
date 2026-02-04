@@ -6,14 +6,21 @@
     <description>Recent content in Talks on Lucas Boscaini.com</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/talks/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Talk Zero</title>
-      <link>http://localhost:1313/talks/0/</link>
-      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/talks/0/</guid>
-      <description>my talk page Why these settings matter for ASIDE remove_unused_columns=False: By default, the Trainer drops any data not in the standard model&amp;rsquo;s forward signature. Since you added role_mask to your Gemma3AsideWrapper, you must keep this False so the mask reaches your custom loss function. paged_adamw_8bit: Because Gemma 3’s embedding layer is massive (256k tokens), even the optimizer states for the embeddings can be heavy. This optimizer keeps the model snappy on a single GPU.</description>
+      <title>Ransomware prevention and Good practices</title>
+      <link>http://localhost:1313/talks/ransomware-prevention-and-good-practices/</link>
+      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talks/ransomware-prevention-and-good-practices/</guid>
+      <description>Talk in PT-BR - Transmited via Youtube: https://www.youtube.com/watch?v=3Tr3fM6U_1k</description>
+    </item>
+    <item>
+      <title>AI on the Rise - Security Challenges in the Era of Artificial Intelligence</title>
+      <link>http://localhost:1313/talks/ai-on-the-rise---security-challenges-in-the-era-of-artificial-intelligence/</link>
+      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talks/ai-on-the-rise---security-challenges-in-the-era-of-artificial-intelligence/</guid>
+      <description>Artificial Intelligence is transforming the world at an accelerated pace, opening doors to incredible innovations but also bringing to light new and complex security challenges. In this talk, we will explore how the rapid adoption of AI is impacting the global landscape, from the creation of sophisticated cyberattacks to infiltrations in critical systems. We will discuss the crucial role of security experts in developing new technologies and strategies to ensure that AI integration is done responsibly and sustainably, protecting individuals, organizations, and society as a whole.</description>
     </item>
   </channel>
 </rss>

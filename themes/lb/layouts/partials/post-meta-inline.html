@@ -10,6 +10,7 @@
     {{ .Date.Format "January 2, 2006" }}
   </time>
 
+{{ if ne .Section "talks" }}
   {{ if .WordCount }}
     <span class="meta-separator">•</span>
     <span class="post-word-count">
@@ -37,4 +38,5 @@
       {{ .ReadingTime }} min
     </span>
   {{ end }}
+{{ end }}
 </div>

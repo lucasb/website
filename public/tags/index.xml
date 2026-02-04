@@ -16,10 +16,31 @@
       <description></description>
     </item>
     <item>
+      <title>Cybersecurity</title>
+      <link>http://localhost:1313/tags/cybersecurity/</link>
+      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cybersecurity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Keynote</title>
+      <link>http://localhost:1313/tags/keynote/</link>
+      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/keynote/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Talks</title>
       <link>http://localhost:1313/tags/talks/</link>
-      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/talks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI</title>
+      <link>http://localhost:1313/tags/ai/</link>
+      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ai/</guid>
       <description></description>
     </item>
   </channel>

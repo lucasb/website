@@ -1,4 +1,5 @@
-{{ if .TableOfContents }}
+
+{{ if and .TableOfContents (ne .Section "talks") }}
   <aside class="post-toc" id="post-toc" aria-label="Table of contents">
     <button
       class="toc-toggle"

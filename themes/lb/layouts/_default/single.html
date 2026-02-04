@@ -18,7 +18,7 @@
         {{ .Content }}
       </div>
 
-      {{ if .Params.tags }}
+      {{ if and .Params.tags (ne .Section "talks") }}
         <footer class="post-footer">
           <div class="post-tags-footer">
             <span class="tags-label">Tags:</span>
