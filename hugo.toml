@@ -52,7 +52,7 @@ theme = 'lb'
 
   [params.social]
     rss = '/index.xml'
-    substack = 'https://substack.com'
+    substack = 'https://lucasboscaini.substack.com/'
     bluesky = "https://bsky.app/profile/lucasb.me"
     github = "https://github.com/lucasb"
     linkedin = "https://www.linkedin.com/in/lucasboscaini"
