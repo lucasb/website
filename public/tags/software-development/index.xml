@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Software Development on Lucas Boscaini.com</title>
-		<link>http://localhost:1313/tags/software-development/</link>
+		<link>https://lucasboscaini.com/tags/software-development/</link>
 		<description>Recent content in Software Development on Lucas Boscaini.com</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,12 +12,12 @@
 		
 			<lastBuildDate>Tue, 08 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/software-development/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://lucasboscaini.com/tags/software-development/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>AI Security Development</title>
-				<link>http://localhost:1313/talks/ai-security-development-painel/</link>
+				<link>https://lucasboscaini.com/talks/ai-security-development-painel/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/talks/ai-security-development-painel/</guid>
+				<guid>https://lucasboscaini.com/talks/ai-security-development-painel/</guid>
 				<description>&lt;p&gt;Broad discussion on AI, security, and software development, with invited speakers from industry and academia.&lt;/p&gt;&#xA;&lt;p&gt;Presented at CBSoft: &lt;a href=&#34;https://cbsoft.sbc.org.br/2026/pt/workshops/event/#panel-discussion-aisecdev&#34;&gt;https://cbsoft.sbc.org.br/2026/pt/workshops/event/#panel-discussion-aisecdev&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 	</channel>

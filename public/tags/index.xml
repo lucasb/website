@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Tags on Lucas Boscaini.com</title>
-		<link>http://localhost:1313/tags/</link>
+		<link>https://lucasboscaini.com/tags/</link>
 		<description>Recent content in Tags on Lucas Boscaini.com</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,68 +12,68 @@
 		
 			<lastBuildDate>Fri, 25 Sep 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://lucasboscaini.com/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>AI Control</title>
-				<link>http://localhost:1313/tags/ai-control/</link>
+				<link>https://lucasboscaini.com/tags/ai-control/</link>
 				<pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/ai-control/</guid>
+				<guid>https://lucasboscaini.com/tags/ai-control/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Artificial Behavioral</title>
-				<link>http://localhost:1313/tags/artificial-behavioral/</link>
+				<link>https://lucasboscaini.com/tags/artificial-behavioral/</link>
 				<pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/artificial-behavioral/</guid>
+				<guid>https://lucasboscaini.com/tags/artificial-behavioral/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>LLM</title>
-				<link>http://localhost:1313/tags/llm/</link>
+				<link>https://lucasboscaini.com/tags/llm/</link>
 				<pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/llm/</guid>
+				<guid>https://lucasboscaini.com/tags/llm/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Safety</title>
-				<link>http://localhost:1313/tags/safety/</link>
+				<link>https://lucasboscaini.com/tags/safety/</link>
 				<pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/safety/</guid>
+				<guid>https://lucasboscaini.com/tags/safety/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>AI</title>
-				<link>http://localhost:1313/tags/ai/</link>
+				<link>https://lucasboscaini.com/tags/ai/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/ai/</guid>
+				<guid>https://lucasboscaini.com/tags/ai/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Cybersecurity</title>
-				<link>http://localhost:1313/tags/cybersecurity/</link>
+				<link>https://lucasboscaini.com/tags/cybersecurity/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/cybersecurity/</guid>
+				<guid>https://lucasboscaini.com/tags/cybersecurity/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Software Development</title>
-				<link>http://localhost:1313/tags/software-development/</link>
+				<link>https://lucasboscaini.com/tags/software-development/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/software-development/</guid>
+				<guid>https://lucasboscaini.com/tags/software-development/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Talks</title>
-				<link>http://localhost:1313/tags/talks/</link>
+				<link>https://lucasboscaini.com/tags/talks/</link>
 				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/talks/</guid>
+				<guid>https://lucasboscaini.com/tags/talks/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Keynote</title>
-				<link>http://localhost:1313/tags/keynote/</link>
+				<link>https://lucasboscaini.com/tags/keynote/</link>
 				<pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/keynote/</guid>
+				<guid>https://lucasboscaini.com/tags/keynote/</guid>
 				<description></description>
 			</item>
 	</channel>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Keynote on Lucas Boscaini.com</title>
-		<link>http://localhost:1313/tags/keynote/</link>
+		<link>https://lucasboscaini.com/tags/keynote/</link>
 		<description>Recent content in Keynote on Lucas Boscaini.com</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,19 +12,19 @@
 		
 			<lastBuildDate>Wed, 02 Apr 2025 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/keynote/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://lucasboscaini.com/tags/keynote/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Ransomware prevention and Good practices</title>
-				<link>http://localhost:1313/talks/ransomware-prevention-and-good-practices/</link>
+				<link>https://lucasboscaini.com/talks/ransomware-prevention-and-good-practices/</link>
 				<pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/talks/ransomware-prevention-and-good-practices/</guid>
+				<guid>https://lucasboscaini.com/talks/ransomware-prevention-and-good-practices/</guid>
 				<description>&lt;p&gt;Talk in PT-BR - Transmited via Youtube: &lt;a href=&#34;https://www.youtube.com/watch?v=3Tr3fM6U_1k&#34;&gt;https://www.youtube.com/watch?v=3Tr3fM6U_1k&lt;/a&gt;&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>AI on the Rise - Security Challenges in the Era of Artificial Intelligence</title>
-				<link>http://localhost:1313/talks/ai-on-the-rise---security-challenges-in-the-era-of-artificial-intelligence/</link>
+				<link>https://lucasboscaini.com/talks/ai-on-the-rise---security-challenges-in-the-era-of-artificial-intelligence/</link>
 				<pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/talks/ai-on-the-rise---security-challenges-in-the-era-of-artificial-intelligence/</guid>
+				<guid>https://lucasboscaini.com/talks/ai-on-the-rise---security-challenges-in-the-era-of-artificial-intelligence/</guid>
 				<description>&lt;p&gt;Artificial Intelligence is transforming the world at an accelerated pace, opening doors to incredible innovations but also bringing to light new and complex security challenges. In this talk, we will explore how the rapid adoption of AI is impacting the global landscape, from the creation of sophisticated cyberattacks to infiltrations in critical systems. We will discuss the crucial role of security experts in developing new technologies and strategies to ensure that AI integration is done responsibly and sustainably, protecting individuals, organizations, and society as a whole.&lt;/p&gt;</description>
 			</item>
 	</channel>

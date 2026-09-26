@@ -7,7 +7,7 @@ description: "About site"
 ---
 ## Who am I ?
 
-**Lucas is a technologist and has been leading the research, discovery, and creation of new technologies, with experience in big techs and startups.**
+** I am Lucas Boscaini, a technologist and has been leading the research, discovery, and creation of new technologies, with experience in big techs and startups.**
 
 I am a builder and strategist focused on the intersection of technical innovation and practical execution. Throughout my career, I have navigated the high-scale environments of Big Tech and the high-velocity world of startups. This dual perspective has shaped my belief that great technology isn't just about elegant code—it’s about solving the right problems at the right time.
 
@@ -20,8 +20,8 @@ I don’t just build for the sake of building; I aim to understand the underlyin
 I started this site as a digital laboratory—a central repository for my thoughts on technology, leadership, and the shifting landscape of our industry. In an era of fleeting social media posts, I believe in the value of long-form thought and permanent URLs.
 
 My current mission for this platform is centered on **exploring artificial cognition and its implications on software engineering and safety.**  This site is where I document my research into how these artificial cognitive architectures work and, more importantly, how we can build them to be robust, predictable, and safe. As well how it challenges the mental models of software development.
-
-As I’ve progressed through my career, I’ve found that the best way to solidify my understanding of a complex topic is to write about it. This site serves as:
+:
+As I have progressed through my career, I have found that the best way to solidify my understanding of a complex topic is to write about it. This site serves as:
 
 * **A Research Log:** Investigating the intersection of artificial cognition, user safety, and software engineering.
 * **Safety & Engineering Essays:** Deep dives into building reliable systems in an age of non-deterministic model.
@@ -40,7 +40,7 @@ I share my latest research and articles through a few specific channels:
 
 Most of my recent intellectual output is hosted directly here. I believe in the "indie web" philosophy— owning my content and its presentation. My writing spans from deep technical dives into system architecture to high-level essays on the sociology implication of artificial cognitive and software technology.
 
-In addition to this site, I have contributed to various industry publications and internal whitepapers at the companies I’ve served. My focus is always on clarity: taking the complex "new" and making it accessible and actionable.
+In addition to this site, I have contributed to various industry publications and internal whitepapers at the companies I have served. My focus is always on clarity: taking the complex "new" and making it accessible and actionable.
 
 ## Speaking
 
