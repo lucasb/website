@@ -7,7 +7,7 @@ description: "About site"
 ---
 ## Who am I ?
 
-** I am Lucas Boscaini, a technologist and has been leading the research, discovery, and creation of new technologies, with experience in big techs and startups.**
+**I am Lucas Boscaini, a technologist and has been leading the research, discovery, and creation of new technologies, with experience in big techs and startups.**
 
 I am a builder and strategist focused on the intersection of technical innovation and practical execution. Throughout my career, I have navigated the high-scale environments of Big Tech and the high-velocity world of startups. This dual perspective has shaped my belief that great technology isn't just about elegant code—it’s about solving the right problems at the right time.
 

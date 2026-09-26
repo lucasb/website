@@ -2,12 +2,14 @@
 title: Post-Training Free Task Vectors
 date: 2026-09-25
 tags:
+  - NeurIPS
   - LLM
   - Safety
   - Artificial Behavioral
   - AI Control
+  - Paper
 draft: false
-description: $[NeurIPS 2026 paper]$ TFTVs skip fine-tuning entirely by mapping contrastive activation steering directions directly into rank-one weight updates using only forward-pass statistics.
+description: TFTVs skip fine-tuning entirely by mapping contrastive activation steering directions directly into rank-one weight updates using only forward-pass statistics.
 image: https://tftv-llm.github.io/figs/teaser-1.png
 ---
 

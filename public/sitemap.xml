@@ -22,6 +22,16 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://lucasboscaini.com/tags/neurips/</loc>
+    <lastmod>2026-09-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://lucasboscaini.com/tags/paper/</loc>
+    <lastmod>2026-09-25T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://lucasboscaini.com/posts/post-training-free-task-vectors/</loc>
     <lastmod>2026-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
