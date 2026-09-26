@@ -1,47 +1,80 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tags on Lucas Boscaini.com</title>
-    <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on Lucas Boscaini.com</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 26 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Mytag</title>
-      <link>http://localhost:1313/tags/mytag/</link>
-      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/mytag/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cybersecurity</title>
-      <link>http://localhost:1313/tags/cybersecurity/</link>
-      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/cybersecurity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Keynote</title>
-      <link>http://localhost:1313/tags/keynote/</link>
-      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/keynote/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Talks</title>
-      <link>http://localhost:1313/tags/talks/</link>
-      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/talks/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI</title>
-      <link>http://localhost:1313/tags/ai/</link>
-      <pubDate>Tue, 17 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ai/</guid>
-      <description></description>
-    </item>
-  </channel>
+	<channel>
+		<title>Tags on Lucas Boscaini.com</title>
+		<link>http://localhost:1313/tags/</link>
+		<description>Recent content in Tags on Lucas Boscaini.com</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 25 Sep 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>AI Control</title>
+				<link>http://localhost:1313/tags/ai-control/</link>
+				<pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/ai-control/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Artificial Behavioral</title>
+				<link>http://localhost:1313/tags/artificial-behavioral/</link>
+				<pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/artificial-behavioral/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>LLM</title>
+				<link>http://localhost:1313/tags/llm/</link>
+				<pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/llm/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Safety</title>
+				<link>http://localhost:1313/tags/safety/</link>
+				<pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/safety/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>AI</title>
+				<link>http://localhost:1313/tags/ai/</link>
+				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/ai/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Cybersecurity</title>
+				<link>http://localhost:1313/tags/cybersecurity/</link>
+				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/cybersecurity/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Software Development</title>
+				<link>http://localhost:1313/tags/software-development/</link>
+				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/software-development/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Talks</title>
+				<link>http://localhost:1313/tags/talks/</link>
+				<pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/talks/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Keynote</title>
+				<link>http://localhost:1313/tags/keynote/</link>
+				<pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/tags/keynote/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>

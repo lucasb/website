@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Stores on Lucas Boscaini.com</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Stores on Lucas Boscaini.com</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 26 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Untitled</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>Intro Why these settings matter for ASIDE remove_unused_columns=False: By default, the Trainer drops any data not in the standard model&amp;rsquo;s forward signature. Since you added role_mask to your Gemma3AsideWrapper, you must keep this False so the mask reaches your custom loss function. paged_adamw_8bit: Because Gemma 3’s embedding layer is massive (256k tokens), even the optimizer states for the embeddings can be heavy. This optimizer keeps the model snappy on a single GPU.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Stores on Lucas Boscaini.com</title>
+		<link>http://localhost:1313/posts/</link>
+		<description>Recent content in Stores on Lucas Boscaini.com</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 25 Sep 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Post-training Free Task Vectors</title>
+				<link>http://localhost:1313/posts/post-training-free-task-vectors/</link>
+				<pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/post-training-free-task-vectors/</guid>
+				<description>&lt;h1 id=&#34;training-free-task-vectors-for-controlling-llm-behavior&#34;&gt;Training-Free Task Vectors for Controlling LLM Behavior&lt;/h1&gt;&#xA;&lt;p&gt;I am excited to share our latest research, &lt;strong&gt;&amp;ldquo;Training-Free Task Vectors for LLM Behavioral Control,&amp;rdquo;&lt;/strong&gt; which has been accepted at &lt;strong&gt;NeurIPS 2026&lt;/strong&gt;!&lt;/p&gt;&#xA;&lt;p&gt;In this paper—co-authored with Gabriel J. Perin, Lucas Boscaini, André Araujo, and Nina S. T. Hirata—we tackle a fundamental challenge in post-training model editing: &lt;em&gt;How can we permanently steer LLM behaviors without the heavy computational cost of fine-tuning?&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;the-problem-the-high-cost-of-classical-task-vectors&#34;&gt;The Problem: The High Cost of Classical Task Vectors&lt;/h2&gt;&#xA;&lt;p&gt;Task vectors have emerged as a powerful paradigm for model editing. Traditionally, a task vector is constructed by taking the parameter-level difference between a fine-tuned model and its base checkpoint ( $\Delta\theta = \theta_{\text{fine-tuned}} - \theta_{\text{base}}$ ).&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

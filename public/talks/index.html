@@ -121,6 +121,19 @@
   integrity="sha256-VABpnTrPnpZ3dNtQ0fbBhCOa2y03fv8wQu8USevHZqs=">
 
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: '\\(', right: '\\)', display: false},
+            {left: '\\[', right: '\\]', display: true}
+          ]
+        });"></script>
+
+
 
 
 
@@ -356,6 +369,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
   
   
@@ -376,7 +395,7 @@
         <p class="list-description">All published talks</p>
       
       <div class="list-count">
-  <span id="filtered-count">2</span>
+  <span id="filtered-count">3</span>
   posts
   
 </div>
@@ -427,7 +446,13 @@
           </div>
           <div id="all-tags-data" style="display: none;">
             
-              <span data-tag="mytag">mytag</span>
+              <span data-tag="AI Control">AI Control</span>
+            
+              <span data-tag="Artificial Behavioral">Artificial Behavioral</span>
+            
+              <span data-tag="LLM">LLM</span>
+            
+              <span data-tag="Safety">Safety</span>
             
           </div>
         </div>
@@ -440,7 +465,7 @@
             aria-label="Filter by year and month">
             <option value="">All Dates</option>
             
-              <option value="2026 January">2026 January</option>
+              <option value="2026 September">2026 September</option>
             
           </select>
         </div>
@@ -452,6 +477,101 @@
     </div>
 
     <div class="posts-list" id="posts-container">
+      
+        
+        
+          
+        
+        
+
+
+
+
+
+<article
+  class="post-card"
+  data-post-url="/talks/ai-security-development-painel/"
+  data-year-month="2026 September"
+  data-tags="AI,Talks,Cybersecurity,Software Development">
+  
+
+
+
+
+  <div class="post-image">
+    <a href="/talks/ai-security-development-painel/" onclick="event.stopPropagation();" aria-label="Read AI Security Development">
+      <img
+        src="https://cbsoft.sbc.org.br/2026/images/logos/cbsoft-logo.png"
+        alt="
+          Painel speaker about Callanges of using AI on Security Software Development at CBSoft Brasil 2026
+        "
+        loading="lazy"
+        width="1200"
+        height="630">
+    </a>
+  </div>
+
+
+
+
+  <div class="post-content">
+    <h3 class="post-title">
+      <a href="/talks/ai-security-development-painel/" onclick="event.stopPropagation();">AI Security Development</a>
+    </h3>
+
+    
+      <p class="post-description">Painel speaker about Callanges of using AI on Security Software Development at CBSoft Brasil 2026</p>
+    
+
+    <div class="post-meta-inline">
+  <time datetime="2026-09-08T00:00:00Z" class="post-date">
+    <svg class="meta-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+    </svg>
+    September 8, 2026
+  </time>
+
+
+</div>
+
+
+    
+
+  <div class="post-tags">
+    
+      
+        <a
+          href="/tags/ai"
+          class="post-tag"
+          onclick="event.stopPropagation();"
+          >AI</a
+        >
+      
+        <a
+          href="/tags/talks"
+          class="post-tag"
+          onclick="event.stopPropagation();"
+          >Talks</a
+        >
+      
+        <a
+          href="/tags/cybersecurity"
+          class="post-tag"
+          onclick="event.stopPropagation();"
+          >Cybersecurity</a
+        >
+      
+    
+  </div>
+
+
+  </div>
+</article>
+
       
         
         
@@ -713,20 +833,6 @@
   
 
   
-    <a
-      href="https://bsky.app/profile/lucasb.me"
-      target="_blank"
-      rel="noopener noreferrer"
-      class="social-link"
-      aria-label="Bluesky">
-      <svg fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
-        <path 
-          fill-rule="evenodd"
-          d="M3.468 1.948C5.303 3.325 7.276 6.118 8 7.616c.725-1.498 2.698-4.29 4.532-5.668C13.855.955 16 .186 16 2.632c0 .489-.28 4.105-.444 4.692-.572 2.04-2.653 2.561-4.504 2.246 3.236.551 4.06 2.375 2.281 4.2-3.376 3.464-4.852-.87-5.23-1.98-.07-.204-.103-.3-.103-.218 0-.081-.033.014-.102.218-.379 1.11-1.855 5.444-5.231 1.98-1.778-1.825-.955-3.65 2.28-4.2-1.85.315-3.932-.205-4.503-2.246C.28 6.737 0 3.12 0 2.632 0 .186 2.145.955 3.468 1.948"
-          clip-rule="evenodd"></path>
-      </svg>
-    </a>
-  
 
   
     <a
@@ -843,7 +949,7 @@
 
 
 
-<script src="/js/main.min.469ce49e49419f52785e0eda9e8e4d50f83d265c46a1e780f31cdcabbacd6233.js" defer></script>
+<script src="/js/main.min.5809f4b25863ee26413f19a2183716d6a5b52e3a8bd308a7dd764fb5bd4d6d36.js" defer></script>
 
   </body>
 </html>

@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Mytag on Lucas Boscaini.com</title>
-    <link>http://localhost:1313/tags/mytag/</link>
-    <description>Recent content in Mytag on Lucas Boscaini.com</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 26 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/mytag/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Untitled</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>Intro Why these settings matter for ASIDE remove_unused_columns=False: By default, the Trainer drops any data not in the standard model&amp;rsquo;s forward signature. Since you added role_mask to your Gemma3AsideWrapper, you must keep this False so the mask reaches your custom loss function. paged_adamw_8bit: Because Gemma 3’s embedding layer is massive (256k tokens), even the optimizer states for the embeddings can be heavy. This optimizer keeps the model snappy on a single GPU.</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Mytag on Lucas Boscaini.com</title>
+		<link>http://localhost:1313/tags/mytag/</link>
+		<description>Recent content in Mytag on Lucas Boscaini.com</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 26 Jan 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/mytag/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Untitled</title>
+				<link>http://localhost:1313/posts/my-first-post/</link>
+				<pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/posts/my-first-post/</guid>
+				<description>&lt;h1 id=&#34;intro&#34;&gt;Intro&lt;/h1&gt;&#xA;&lt;h3 id=&#34;why-these-settings-matter-for-aside&#34;&gt;Why these settings matter for ASIDE&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;code&gt;remove_unused_columns=False&lt;/code&gt;&lt;/strong&gt;: By default, the &lt;code&gt;Trainer&lt;/code&gt; drops any data not in the standard model&amp;rsquo;s &lt;code&gt;forward&lt;/code&gt; signature. Since you added &lt;code&gt;role_mask&lt;/code&gt; to your Gemma3AsideWrapper, you must keep this &lt;code&gt;False&lt;/code&gt; so the mask reaches your custom loss function.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;code&gt;paged_adamw_8bit&lt;/code&gt;&lt;/strong&gt;: Because Gemma 3’s embedding layer is massive (256k tokens), even the optimizer states for the embeddings can be heavy. This optimizer keeps the model snappy on a single GPU.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;code&gt;bf16=True&lt;/code&gt;&lt;/strong&gt;: Gemma 3 uses &lt;a href=&#34;https://learnopencv.com/gemma-3/&#34;&gt;RoPE (Rotary Positional Embeddings)&lt;/a&gt; which are sensitive to precision. Using &lt;code&gt;fp16&lt;/code&gt; can cause &amp;ldquo;overflow&amp;rdquo; errors during long-context training; &lt;code&gt;bf16&lt;/code&gt; provides the dynamic range needed.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;final-hook-the-data-collator&#34;&gt;Final Hook: The Data Collator&lt;/h3&gt;&#xA;&lt;p&gt;You&amp;rsquo;ll need a simple collator to handle the &lt;code&gt;role_mask&lt;/code&gt; padding:&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

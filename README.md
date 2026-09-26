@@ -1,7 +1,17 @@
 # website
 
 ### Sync run
-´´´sh
-chmod +x sync.sh 
-./sync.sh
-´´´
+´´´ 
+chmod +x sync.sh ./sync.sh
+´´´ 
+
+### run dev mode
+``` 
+hugo server -D
+``` 
+``` 
+```
+
+
+### build version
+

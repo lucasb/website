@@ -7,7 +7,7 @@ theme = 'lb'
   description = "Exploring artificial cognition and implications on software engineering and safety."
   #favicon = "/images/avatar.png"
   #footerText = "Built with Hugo and Mana theme"  # Optional
-  
+
   # Hero section title (optional - defaults to site.Title)
   heroTitleLine1 = " ... "  # First line of hero title
   heroTitleLine2 = "LUCAS BOSCAINI"    # Second line of hero title (optional)
@@ -53,7 +53,7 @@ theme = 'lb'
   [params.social]
     rss = '/index.xml'
     substack = 'https://lucasboscaini.substack.com/'
-    bluesky = "https://bsky.app/profile/lucasb.me"
+    # bluesky = "https://bsky.app/profile/lucasb.me"
     github = "https://github.com/lucasb"
     linkedin = "https://www.linkedin.com/in/lucasboscaini"
     email = "contact@lucasboscaini.com"
