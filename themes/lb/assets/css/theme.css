@@ -14,8 +14,17 @@ html {
 }
 
 :root {
-  /* Nebula Glass Color Palette */
-  --bg-deep: #020217/*#020617*/; /* Deep Midnight Blue */
+  /* Blueprint Sheet Palette */
+  --bg-deep: #020217; /* Deep Blueprint Prussian Blue */
+  --blueprint-radial: radial-gradient(
+    circle at 50% 30%, 
+    rgb(14 68 128 / 0%) 0%, 
+    rgba(9, 36, 70, 0) 35%, 
+    var(--bg-deep) 0%
+  );
+  --blueprint-grid-major: rgba(140, 210, 255, 0.2);
+  --blueprint-grid-minor: rgba(140, 210, 255, 0.065);
+  --blueprint-grid-dot: rgba(160, 225, 255, 0.45);
   --accent-primary: #c6a0f6; /*#ef5ba1;/* #b063e0; /* Primary Purple */
   --accent-mid-purple: #c485f6; /* Mid Purple */
   --accent-light-purple: #c6a0f6;/*#ef5ba1; /*#dbabff; /* Light Purple */
@@ -131,6 +140,18 @@ html {
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+
+  /* Light theme blueprint (drafting sheet) */
+  --bg-deep: #f5f8fc;
+  --blueprint-radial: radial-gradient(
+    circle at 50% 30%,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(240, 246, 252, 0.7) 45%,
+    #e9f0f8 100%
+  );
+  --blueprint-grid-major: rgba(14, 116, 144, 0.2);
+  --blueprint-grid-minor: rgba(14, 116, 144, 0.06);
+  --blueprint-grid-dot: rgba(14, 116, 144, 0.4);
 }
 
 body {
@@ -143,40 +164,43 @@ body {
     background-color var(--transition-base),
     color var(--transition-base);
 
-  /* Nebula Glass Background: Radial gradient (lighter blue in center, black at edges) */
-  background-image: radial-gradient(
-    circle at center,
-    rgba(30, 58, 138, 0.3) 0%,
-    rgba(15, 23, 42, 0.5) 40%,
-    var(--bg-deep) 100%
-  );
+  /* Blueprint Sheet Background: Dual-layer orthogonal grid with intersection points */
+  background-image:
+    /* Blueprint intersection dots at major grid points */
+    radial-gradient(circle at 1px 1px, var(--blueprint-grid-dot) 1.5px, transparent 1.5px),
+    /* Blueprint major grid lines (100px) */
+    linear-gradient(to right, var(--blueprint-grid-major) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--blueprint-grid-major) 1px, transparent 1px),
+    /* Blueprint minor grid lines (20px) */
+    linear-gradient(to right, var(--blueprint-grid-minor) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--blueprint-grid-minor) 1px, transparent 1px),
+    /* Blueprint depth / vignette illumination */
+    var(--blueprint-radial);
+  background-size:
+    100px 100px,
+    100px 100px,
+    100px 100px,
+    20px 20px,
+    20px 20px,
+    100% 100%;
+  background-position:
+    -1px -1px,
+    0 0,
+    0 0,
+    0 0,
+    0 0,
+    center center;
   background-attachment: fixed;
-  background-size: 100% 100%;
-  background-position: center center;
 
   position: relative;
 }
 
 /* Light theme background */
-[data-theme="light"] {
-  --bg-deep: #ffffff; /* Override bg-deep for light theme */
-}
-
 [data-theme="light"] body {
-  background-color: #ffffff;
-  /* Light theme radial gradient: subtle purple/lavender tint in center, fading to white at edges */
-  background-image: radial-gradient(
-    circle at center,
-    rgba(196, 133, 246, 0.2) 0%,
-    rgba(243, 232, 255, 0.4) 40%,
-    #ffffff 100%
-  );
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  background-position: center center;
+  background-color: var(--bg-deep);
 }
 
-/* SVG noise/grain texture overlay with opacity 0.05 to prevent banding */
+/* SVG noise/grain texture overlay to give paper tooth to the blueprint sheet */
 body::before {
   content: "";
   position: fixed;
@@ -187,7 +211,7 @@ body::before {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
   background-size: 400px 400px;
   background-repeat: repeat;
-  opacity: 0.05;
+  opacity: 0.055;
   pointer-events: none;
   z-index: 0;
 }
