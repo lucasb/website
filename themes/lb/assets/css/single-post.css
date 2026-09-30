@@ -52,8 +52,10 @@
 [data-theme="light"] .post-toc {
   background-image: radial-gradient(
     circle at center,
-    rgba(196, 133, 246, 0.2) 0%,
-    rgba(243, 232, 255, 0.4) 40%,
+    /*rgba(196, 133, 246, 0.2) 0%,
+    rgba(243, 232, 255, 0.4) 40%,*/
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.4) 40%,
     #ffffff 100%
   );
 }
